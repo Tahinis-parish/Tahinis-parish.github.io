@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	background: #F1E8E4;
+	background: #F7F4F3;
 	padding: 0;
 	margin: 0;
 	width: 100%;
@@ -15,54 +15,81 @@ body {
 /* Header Part */
 
 header {
-	background: #7F3766;
+	background: #172A3A;
 	padding: 1% 5%;
 	margin: 0;
 	width: 90%;
-	height: 150px;
 }
 
 #title {
-	color: #F1E8E4;
+	color: #75DDDD;
 }
 
+header nav {
+	overflow: hidden;
+}
+
+header nav a {
+  float: left;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* default color of links */
 header nav a:link {
-	color: #F1E8E4;
+	color: #F7F4F3;
 }
 
+/* color of visited links */
 header nav a:visited {
-	color: #E5CDC8;
+	color: #F7F4F3;
 }
 
+/* color when you hover your cursor over links */
 header nav a:hover {
-	color: #C455A8;
+	color: #F7F4F3;
 }
 
+/* color when you click a link */
 header nav a:active {
-	color: #DB5ABA;
+	color: #75DDDD;
 }
 
 /* Main Part */
 
 main {
-	background: #EBDBD6;
+	color: #172A3A;
+	background: #EAE2DD;
 	margin: 0% 25%;
 	padding: 10px 5%;
 	width: 40%;
 }
 
-figure {
-	background: #D7A6B3;
-	color: #3A1824;
-	padding: 0% 10%;
-	margin: 0 0 20px 0;
+#profile_picture {
+	padding: 20px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
 	width: 80%;
 	height: 100%;
 }
 
-img {
+#profile_picture img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
 	width: 80%;
 	height: 80%;
+}
+
+#profile_picture figcaption {
+	width: 80%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 h1 {
